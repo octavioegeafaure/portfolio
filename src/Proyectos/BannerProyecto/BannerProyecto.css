@@ -1,0 +1,35 @@
+.proyectos {
+    padding-left: 4rem;
+    height: 70vh;
+}
+.proyectos-prueba{
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+}
+.proyectos-titulo-container {
+    overflow: hidden;
+}
+
+.proyectos-titulo {
+    font-size: clamp(65px, 12vw, 120px);
+    padding-top: 2rem;
+    margin: 0;
+    
+}
+.proyectos-subtitulo{
+    font-size: 2vw;
+    width: 49%;
+}
+.proyectos-subtitulo-imagen{
+    height: 5rem;
+    background-color: white;
+}
+
+@media only screen and (max-width: 1136px) {
+    .proyectos {
+        padding-left: 2rem;
+        height: 70vh;
+    }
+}

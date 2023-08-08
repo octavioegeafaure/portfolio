@@ -1,0 +1,16 @@
+.proyectos{
+    padding-left: 4.5rem;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.proyectos-titulo-container{
+    overflow: hidden;
+}
+.proyectos-titulo{
+    font-size: 10vw;
+    padding-top: 2rem;
+    margin: 0;
+    overflow: hidden;
+}

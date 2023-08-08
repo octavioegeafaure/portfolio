@@ -1,0 +1,21 @@
+.about {
+    width: 100%;
+    background-color: #1008B4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-texto {
+    justify-self: center;
+    overflow: hidden;
+    width: 50%;
+    /* padding-top: 4rem; */
+    padding-left: 5rem;
+}
+
+.about-texto-letra {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+

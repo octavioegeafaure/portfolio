@@ -1,0 +1,129 @@
+.banner {
+    height: 32rem;
+    width: 100%;
+    padding-top: 4rem;
+    background-color: #1008B4;
+    /* background-color: #1008B4; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .banner-top{
+    height: 21rem;
+} */
+
+.banner-primero {
+    /* width: 45rem; */
+    display: flex;
+    overflow: hidden;
+    padding-left: 4rem;
+    z-index: 9999;
+}
+
+.banner-primero-frontend {
+    color: #F4C3B9;
+    font-size: clamp(65px, 12vw, 120px);
+    font-weight: 800;
+}
+
+.banner-abajo {
+    /* width: 45rem; */
+    display: flex;
+    overflow: hidden;
+    margin-top: -2.5rem !important;
+    padding-left: 4rem;
+    
+}
+
+.banner-abajo-developer {
+    color: #F4C3B9;
+    /* font-size: 15vh; */
+    font-size: clamp(65px, 12vw, 120px);
+    font-weight: 800;
+  
+}
+
+
+
+.banner-texto {
+    background-color: #1008B4;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+}
+
+/* .banner-texto-izquierda {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -1rem;
+}
+
+.banner-texto-derecha {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+*/
+
+
+@media only screen and (max-width: 1136px) {
+    
+
+    .banner-primero {
+        padding-left: 2rem;
+
+    }
+    .banner-abajo {
+        padding-left: 2rem;
+        margin-top: -1.5rem !important;
+    }
+    .banner-texto {
+        padding-left: 2rem;
+        padding-right: 2rem;
+}
+    
+}
+/* @media only screen and (max-width: 650px) {
+    .banner {
+        height: 100vh;
+    }
+
+    .banner-primero {
+        padding-left: 2rem;
+
+    }
+
+    .banner-primero-frontend {
+        font-size: 15vw;
+    }
+
+    .banner-abajo {
+        padding-left: 2rem;
+        margin-top: -2rem !important;
+    }
+
+    .banner-abajo-developer {
+        font-size: 15vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+
+    .banner-primero-frontend {
+        font-size: 18vw;
+    }
+
+    .banner-abajo {
+        padding-left: 2rem;
+        margin-top: -1.5rem !important;
+    }
+
+    .banner-abajo-developer {
+        font-size: 18vw;
+    }
+} */

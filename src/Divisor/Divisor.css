@@ -1,0 +1,45 @@
+.about-divison {
+    background-color: #1008B4;
+    /* width: 100%; */
+    overflow: hidden;
+    z-index: 2;
+    /* padding-right: 4rem; */
+   
+}
+
+.about-numero {
+    color: #F4C3B9;
+    /* width: 100%; */
+    display: flex;
+    justify-content: end;
+    font-size: 5vh;
+    font-weight: 500;
+    padding-right: 5rem;
+    padding-top: 5rem;
+}
+
+/* .about-texto-linea {
+    overflow: hidden;
+    background-color: #1008B4;
+    z-index: 3;
+}
+.about-texto-linea-adentro{
+    background-color: #F4C3B9;
+    overflow: hidden;
+    height: .3rem ;
+    z-index: 1;
+} */
+/* @media only screen and (max-width: 730px) {
+    .about-numero {
+            font-size: 6vw;
+            padding-right: 2rem;
+    }
+
+} */
+@media only screen and (max-width: 1136px) {
+    .about-numero {
+        font-size: 6vh;
+        font-weight: 500;
+        padding-right: 2rem;
+    }
+}
