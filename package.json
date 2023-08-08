@@ -1,7 +1,7 @@
 {
   "name": "vite-project",
   "private": true,
-  "homepage": "https://octavioegeafaure.github.io/portfolio",
+  "homepage": "http://octavioegeafaure.github.io/portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
