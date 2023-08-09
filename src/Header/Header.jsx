@@ -24,7 +24,7 @@ export const Header = () => {
         duration: 0.7,
         delay: 0.7,
       }} className="header-container">
-        <Link to={`/`}>
+        <Link to={`/portfolio`}>
           <p className="header-logo">octavio</p>
         </Link>
       
