@@ -27,7 +27,7 @@ export const PrimeraImagen = () => {
       className='primera-imagen'
     >
       <motion.div
-      initial={{ y: 150 }}
+      initial={{ y: 250 }}
       animate={{ y: 50 }}
       transition={{
         ease: "easeInOut",
