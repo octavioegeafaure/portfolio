@@ -7,12 +7,12 @@ import { useEffect, useRef } from "react";
 const misProyectos = [
         {
             titulo: "EasyRides",
-            src: "dist/ImagenesModal/easyrides.png",
+            src: "/dist/ImagenesModal/easyrides.png",
             color: "orange",
         },
         {
             titulo: "GoCrypto",
-            src: "dist/ImagenesModal/prueba.png",
+            src: "/dist/ImagenesModal/prueba.png",
             color: "blue",
         },
     ]
