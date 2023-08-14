@@ -3,11 +3,11 @@ import Modal from "./Modal/Modal"
 import Proyecto from "./Proyecto/Proyecto"
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
-import imgEasy from "../../dist/ImagenesModal/easyrides.png"
+// import imgEasy from "../../dist/ImagenesModal/easyrides.png"
 const misProyectos = [
         {
             titulo: "EasyRides",
-            src: {imgEasy},
+            src: "",
             color: "orange",
         },
         {
