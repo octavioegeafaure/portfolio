@@ -8,7 +8,7 @@ const Proyecto = ({index, titulo, setModal}) => {
     const ref = useRef(null)
     const isInView = useInView(ref, {once: true })
     const mainControls = useAnimation()
-    const { setProyectoElegido } = useContext(ProyectoElegidoContext);
+    const { proyectoElegido, setProyectoElegido } = useContext(ProyectoElegidoContext);
 
 
     useEffect(() => {
@@ -19,19 +19,21 @@ const Proyecto = ({index, titulo, setModal}) => {
   return (
     
       <div className="proyecto-container-linea">
-        <Link to={`/proyectos`}>
+        <Link 
+        onClick={() => {
+        setProyectoElegido(titulo);
+        localStorage.setItem('titulo', titulo)
+        }}
+        to={`portfolio/proyectos`}
+        
+        >
             <div 
-                onClick={() => {
-                  setProyectoElegido(titulo);
-                  localStorage.setItem('titulo', titulo)
-                }}
                 onMouseEnter={() => {setModal({active: true, index})}} 
                 onMouseLeave={() => {setModal({active: false, index})}} 
                 className="proyecto">
                 <h4>{titulo}</h4>
             </div>
         </Link>
-
       </div>
 
   )

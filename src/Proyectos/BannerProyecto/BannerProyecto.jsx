@@ -10,7 +10,8 @@ const BannnerProyecto = () => {
 
     <div className="proyectos">
       {/* <div className="proyectos-prueba"> */}
-      {proyectoElegido == "EasyRides" ? (
+      {console.log(window.localStorage.getItem('titulo'))}
+      {window.localStorage.getItem('titulo') == "EasyRides" ? (
         <>
         <div className="proyectos-titulo-container" >
           <motion.h3

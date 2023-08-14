@@ -13,8 +13,8 @@ function App() {
       <BrowserRouter>
         <Header />
       <Routes>
-        <Route path="/portfolio" element={<Home />} />
-        <Route path="/proyectos" element={<Proyectos />} />
+        <Route path="/*" element={<Home />} />
+        <Route path="portfolio/proyectos" element={<Proyectos />} />
       </Routes>
       </BrowserRouter>
     </ProyectoElegidoProvider>
