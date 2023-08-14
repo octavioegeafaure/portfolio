@@ -22,7 +22,7 @@ const Proyecto = ({index, titulo, setModal}) => {
         <Link 
         onClick={() => {
         setProyectoElegido(titulo);
-        localStorage.setItem('titulo', titulo)
+        sessionStorage.setItem('titulo', titulo)
         }}
         to={`portfolio/proyectos`}
         

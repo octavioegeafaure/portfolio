@@ -29,7 +29,7 @@ const Concepto = () => {
       }} 
     
       className="concepto">
-        {proyectoElegido == "EasyRides" ? (
+        {sessionStorage.getItem('titulo')== "EasyRides" ? (
           <>
           <p className="concepto-concepto">Concepto</p>
           <p 

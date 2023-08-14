@@ -35,7 +35,7 @@ export const PrimeraImagen = () => {
         delay: 1.3,
       }}
       >
-      {window.localStorage.getItem('titulo') == "EasyRides" ? (
+      {sessionStorage.getItem('titulo') == "EasyRides" ? (
       <img className='primera-imagen-img' src={imagenEasy}/>
       )
       :<img className='primera-imagen-img' src={imagenCrypto}/>}
