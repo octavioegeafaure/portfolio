@@ -60,7 +60,7 @@ const Proyectos = () => {
                 </div>
                 
             </div>
-            <Modal modal={modal} misProyectos={misProyectos}/>
+            {/* <Modal modal={modal} misProyectos={misProyectos}/> */}
         </motion.div>
         </div>
     )

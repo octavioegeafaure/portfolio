@@ -23,6 +23,7 @@ const Proyecto = ({index, titulo, setModal}) => {
             <div 
                 onClick={() => {
                   setProyectoElegido(titulo);
+                  localStorage.setItem('titulo', titulo)
                 }}
                 onMouseEnter={() => {setModal({active: true, index})}} 
                 onMouseLeave={() => {setModal({active: false, index})}} 
