@@ -1,7 +1,7 @@
 
 import "./Banner.css";
 import { motion, useScroll, useTransform } from "framer-motion";
-
+import Clock from 'react-live-clock';
 
 export const Banner = () => {
   const { scrollYProgress } = useScroll();
@@ -67,7 +67,8 @@ export const Banner = () => {
 
           <div className="banner-texto-derecha">
             <p className="banner-texto-p">2023</p> 
-            <p className="banner-texto-p">GMT-2 22:27:28</p>
+            
+            <p className="banner-texto-p">GMT-2 <Clock format={'h:mm:ss'} ticking={true}/> </p>
           </div>
         </motion.div>
       </div>
