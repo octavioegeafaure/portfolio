@@ -56,7 +56,7 @@ export const PrimeraImagen = () => {
       }} 
     
       className="concepto">
-        {proyectoElegido == "EasyRides" ? (
+        {sessionStorage.getItem('titulo') == "EasyRides" ? (
           <>
           <div ref={ref} className="concepto-flex">
           <p className="concepto-concepto">Concepto</p>
