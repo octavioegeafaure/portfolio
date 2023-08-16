@@ -3,7 +3,6 @@
     height: 70vh;
 }
 .proyectos-prueba{
-   
    display: flex;
    flex-direction: column;
    justify-content: space-between; 
@@ -13,10 +12,10 @@
 }
 
 .proyectos-titulo {
+    color: #F4C3B9;
     font-size: clamp(65px, 12vw, 120px);
     padding-top: 2rem;
     margin: 0;
-    
 }
 .proyectos-subtitulo{
     font-size: 2vw;

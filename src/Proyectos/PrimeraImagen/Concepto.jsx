@@ -29,7 +29,8 @@ const Concepto = () => {
       }} 
     
       className="concepto">
-        {sessionStorage.getItem('titulo')== "EasyRides" ? (
+        
+        {localStorage.getItem('titulo') == "EasyRides" ? (
           <>
           <p className="concepto-concepto">Concepto</p>
           <p 

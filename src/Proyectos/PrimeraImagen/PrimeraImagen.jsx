@@ -35,7 +35,7 @@ export const PrimeraImagen = () => {
         delay: 1.3,
       }}
       >
-      {sessionStorage.getItem('titulo') == "EasyRides" ? (
+      {localStorage.getItem('titulo') == "EasyRides" ? (
       <img className='primera-imagen-img' src={imagenEasy}/>
       )
       :<img className='primera-imagen-img' src={imagenCrypto}/>}
@@ -56,7 +56,7 @@ export const PrimeraImagen = () => {
       }} 
     
       className="concepto">
-        {sessionStorage.getItem('titulo') == "EasyRides" ? (
+        {localStorage.getItem('titulo') == "EasyRides" ? (
           <>
           <div ref={ref} className="concepto-flex">
           <p className="concepto-concepto">Concepto</p>

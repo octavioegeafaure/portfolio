@@ -21,10 +21,11 @@ const Proyecto = ({index, titulo, setModal}) => {
       <div className="proyecto-container-linea">
         <Link 
         onClick={() => {
-        setProyectoElegido(titulo);
-        sessionStorage.setItem('titulo', titulo)
+        // setProyectoElegido(titulo);
+        localStorage.setItem('titulo', titulo)
+        {console.log(localStorage.getItem('titulo'))}
         }}
-        to={`portfolio/proyectos`}
+        to={`/portfolio/proyectos`}
         
         >
             <div 
