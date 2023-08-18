@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <ProyectoElegidoProvider>
-      <BrowserRouter basename="/portfolio/" />
+      <BrowserRouter basename="/portfolio/" >
         <Header />
       <Routes>
         <Route path="/portfolio/" element={<Home />} />
