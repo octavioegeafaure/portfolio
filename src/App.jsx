@@ -2,6 +2,7 @@
 import './App.css'
 import { Header } from './Header/Header'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Home from './Home'
 import Proyectos from './Proyectos/Proyectos';
 import { ProyectoElegidoProvider } from './Context/ProyectoElegidoContext';
@@ -10,14 +11,14 @@ function App() {
   return (
     <>
     <ProyectoElegidoProvider>
-      <BrowserRouter>
+      <HashRouter>
         <Header />
       <Routes>
         <Route path="/portfolio/" element={<Home />} />
         <Route path={`/portfolio/proyectos`} element={<Proyectos />} />
         
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </ProyectoElegidoProvider>
 
 
