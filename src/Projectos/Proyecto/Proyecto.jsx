@@ -23,9 +23,9 @@ const Proyecto = ({index, titulo, setModal}) => {
         onClick={() => {
         // setProyectoElegido(titulo);
         localStorage.setItem('titulo', titulo)
-        {console.log(localStorage.getItem('titulo'))}
+        
         }}
-        to={`/portfolio/proyectos`}
+        to={`/portfolio/proyectos/${titulo}`}
         
         >
             <div 

@@ -40,7 +40,8 @@ export const PrimeraImagen = () => {
         delay: 1.3,
       }}
       >
-        <img className='primera-imagen-img' src={imagenEasy}/>
+    <img className='primera-imagen-img' src={imagenCrypto}/>
+        
       </motion.div>
 
       <motion.div 
@@ -56,43 +57,45 @@ export const PrimeraImagen = () => {
         delay: 1,
       }} 
     
-      className="concepto">
-        
-          <>
-          <div ref={ref} className="concepto-flex">
+      className="concepto">        
+        <>
+        <div ref={ref} className="concepto-flex">
           <p className="concepto-concepto">Concepto</p>
-          <p 
+          <p
           className="concepto-info">
-          EasyRides que permite realizar reservas de autos. Estos estan divididos y permiten filtrarse
-          por categoria, ciudad y fecha. Cada vehiculo tiene su pagina de detalle con imagenes y descripciones
-          del vehiculo. Toda esta informacion se encuentra cargada en el BackEnd y se provee mediante APIs. 
+          GoCrypto es una página web en la que se permite ver 
+          información de las criptomonedas mas utilizadas. 
+          Utilizando la API de CoinGecko para proveer la data 
+          actualizada a tiempo real. Podremos realizar busquedas
+          de monedas y ver las fluctuaciones que se han realizado, 
+          tanto en pesos argentinos como al dólar estadounidense.
           </p>
           </div>
-          <img className='primera-imagen-img' src={imagenEasy2}/>
-          <img className='primera-imagen-img' src={imagenEasy3}/>
-          <img className='primera-imagen-img' src={imagenEasy4}/>
-          <img className='primera-imagen-img' src={imagenEasy5}/>
-        <div className="boton-proyecto">
+          <img className='primera-imagen-img' src={imagenCrypto}/>
+          <img className='primera-imagen-img' src={imagenCrypto2}/>
+          <img className='primera-imagen-img' src={imagenCrypto3}/>
+          <img className='primera-imagen-img' src={imagenCrypto4}/>
+        </>
+        
+      </motion.div>
+      <div className="boton-proyecto">
           <p>siguiente proyecto</p>
           <Link
           onClick={() => {
             
           // setProyectoElegido(titulo);
-          localStorage.setItem('titulo', "GoCrypto")
+          localStorage.setItem('titulo', "EasyRides")
           // window.location.reload()
           }}
           
-          to={`/portfolio/proyectos/GoCrypto`}
+          to={`/portfolio/proyectos/EasyRides`}
           >
             <div className="boton-proyecto-proyecto">
-              <h5>gocrypto</h5>
+              <h5>easyrides</h5>
             </div>
           </Link>
-        </div>
-        </>
-
-       
-      </motion.div>
+      </div>
     </div>
   )
 }
+// BOTON 

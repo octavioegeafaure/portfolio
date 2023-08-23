@@ -9,11 +9,7 @@ const BannnerProyecto = () => {
      window.scrollTo(0, 0);
     }, []);
   return (
-
     <div className="proyectos">
-      {/* <div className="proyectos-prueba"> */}
-      {/* localStorage.getItem('titulo') === "EasyRides" */}
-        <>
         <div className="proyectos-titulo-container" >
           <motion.h3
           initial={{ y: 140 }}
@@ -25,7 +21,7 @@ const BannnerProyecto = () => {
           }}
           className="proyectos-titulo"
           >
-          easyrides
+          gocrypto
           </motion.h3>
         </div>
           <div className="proyectos-subtitulo">
@@ -38,11 +34,9 @@ const BannnerProyecto = () => {
             delay: 1.2,
           }}
           >
-            {/* Web de alquiler de autos. */}
+            {/* Web de seguimiento de criptomonedas.  */}
           </motion.h4>
         </div>
-        </>
-      {/* </div> */}
     </div>
   );
 };
