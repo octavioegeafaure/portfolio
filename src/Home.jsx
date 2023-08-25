@@ -1,6 +1,7 @@
 import AboutEfecto from './About/AboutEfecto';
 import { Banner } from './Banner/Banner';
 import { Divisor } from './Divisor/Divisor';
+import Footer from './Footer/Footer';
 import Proyectos from './Projectos/Proyectos';
 
 const Home = () => {
@@ -13,7 +14,8 @@ const Home = () => {
       <AboutEfecto />
       <Divisor numero="(002)"/>
       <Proyectos />
-  
+      <Divisor numero="(003)"/>
+      <Footer />
     </div>
   );
 }

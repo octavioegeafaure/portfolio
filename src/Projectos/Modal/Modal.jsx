@@ -44,7 +44,7 @@ export default function Modal({modal, misProyectos}) {
 
   return (
     <>
-        <motion.div ref={modalContainer} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"} className="modal-container">
+        {/* <motion.div ref={modalContainer} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"} className="modal-container">
             <div style={{top: index * -100 + "%"}} className="modal-slider">
             {
                 misProyectos.map( (proyecto, index) => {
@@ -57,9 +57,9 @@ export default function Modal({modal, misProyectos}) {
                 })
             }
             </div>
-        </motion.div>
+        </motion.div> */}
         <motion.div ref={cursor} className="cursor" variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"}></motion.div>
-        <motion.div ref={cursorLabel} className="cursor-label" variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"}>View</motion.div>
+        <motion.div ref={cursorLabel} className="cursor-label" variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"}></motion.div>
     </>
   )
 }

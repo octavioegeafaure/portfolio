@@ -66,8 +66,7 @@ export const Banner = () => {
           </div>
 
           <div className="banner-texto-derecha">
-            <p className="banner-texto-p">2023</p> 
-            
+            <p className="banner-texto-p">2023</p>
             <p className="banner-texto-p">GMT-2 <Clock format={'HH:mm:ss'} ticking={true}/> </p>
           </div>
         </motion.div>

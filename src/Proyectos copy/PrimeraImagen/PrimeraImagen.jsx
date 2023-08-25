@@ -13,6 +13,7 @@ import { useContext, useEffect, useRef } from "react"
 import { ProyectoElegidoContext } from "../../Context/ProyectoElegidoContext"
 import { Link } from "react-router-dom"
 import { Navigate } from "react-router-dom";
+import Footer from "../../Footer/Footer"
 
 export const PrimeraImagen = () => {
     const ref = useRef(null)
@@ -94,7 +95,9 @@ export const PrimeraImagen = () => {
               <h5>easyrides</h5>
             </div>
           </Link>
+          <Footer />
       </div>
+      
     </div>
   )
 }

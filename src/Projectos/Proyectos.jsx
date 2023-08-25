@@ -3,6 +3,7 @@ import Modal from "./Modal/Modal"
 import Proyecto from "./Proyecto/Proyecto"
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
+import Footer from "../Footer/Footer";
 // import imgEasy from "../../dist/ImagenesModal/easyrides.png"
 const misProyectos = [
         {
@@ -60,8 +61,9 @@ const Proyectos = () => {
                 </div>
                 
             </div>
-            {/* <Modal modal={modal} misProyectos={misProyectos}/> */}
+            <Modal modal={modal} misProyectos={misProyectos}/>
         </motion.div>
+        
         </div>
     )
 }

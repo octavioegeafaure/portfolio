@@ -7,8 +7,9 @@ import Home from './Home'
 import Proyectos from './Proyectos/Proyectos';
 import { ProyectoElegidoProvider } from './Context/ProyectoElegidoContext';
 import ProyectoCrypto from './Proyectos copy/ProyectoCrypto';
+
 function App() {
-  const titulo = localStorage.getItem('titulo')
+  
   return (
     <>
     <ProyectoElegidoProvider>
@@ -19,6 +20,7 @@ function App() {
         <Route path={`/portfolio/proyectos/EasyRides`} element={<Proyectos />} />
         <Route path={`/portfolio/proyectos/GoCrypto`} element={<ProyectoCrypto />} />
       </Routes>
+        
       </HashRouter>
     </ProyectoElegidoProvider>
 

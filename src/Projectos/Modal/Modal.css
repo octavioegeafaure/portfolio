@@ -34,15 +34,15 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #455CE9;
-    color: white;
+    background-color: #F4C3B9;
+    color: #1008B4;
     position: absolute;
     z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 1rem;
+    font-weight: 600;
     pointer-events: none;
 }
 
