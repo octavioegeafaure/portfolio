@@ -5,7 +5,7 @@
 }
 .primera-imagen-img {
     width: 100%;
-    border-radius: 1rem;
+    border-radius: .5rem;
 }
 .concepto{
     padding-top: 8rem;
@@ -47,6 +47,15 @@
     margin: 0;
 
 }
+.imagenes-celuEasy{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8rem;
+}
+.imagen-celu{
+    width: 20%;
+    border-radius: 1rem;
+}
 @media only screen and (max-width: 1136px) {
     .primera-imagen {
         height: 15rem;
@@ -57,6 +66,18 @@
 @media only screen and (max-width: 1024px) {
     .primera-imagen {
         padding-right: 2rem;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .imagenes-celuEasy {
+        flex-direction: column;
+        align-items: center;
+            
+    }
+    .imagen-celu {
+        width: 70%;
+        border-radius: 1rem;
+        margin-top: 5rem;
     }
 }
 @media only screen and (max-width: 650px) {

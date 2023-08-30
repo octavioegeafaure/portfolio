@@ -5,7 +5,24 @@
 }
 .primera-imagen-img {
     width: 100%;
-    border-radius: 1rem;
+    border-radius: .5rem;
+}
+.duo-imagenes-crypto{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    border-radius: .5rem;
+    height: 25rem;
+}
+.duo-imagenes-crypto-izq{
+    border-radius: .5rem;
+    width: 60%;
+}
+.duo-imagenes-crypto-der {
+    align-self: center;
+    border-radius: .5rem;
+    height: 50%;
+    gap: 1rem;
 }
 .concepto{
     padding-top: 8rem;
@@ -25,10 +42,19 @@
 .concepto-info{
     width: 50%;
     font-size: 1.5rem;
+    font-weight: 600;
     padding-bottom: 5rem;
 }
 .concepto-flex > p {
     color: #F4C3B9;
+}
+.imagenes-celu{
+    display: flex;
+    padding-top: 2rem;
+}
+.imagenes-celu > img{
+    border-radius: 1rem;
+    width: 20%;
 }
 .boton-proyecto {
     border-bottom: 1px solid #F4C3B9;
@@ -55,10 +81,25 @@
         padding-left: 2rem;
         padding-right: 4rem;
     }
+    .duo-imagenes-crypto{
+        display: block;
+        height: 100%;
+    }
+    .duo-imagenes-crypto > img{
+        width: 100%;
+    }
+    .duo-imagenes-crypto-der{
+        margin-top: 5rem;
+    }
 }
 @media only screen and (max-width: 1024px) {
     .primera-imagen {
         padding-right: 2rem;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .imagenes-celuEasy{
+        display: ;
     }
 }
 @media only screen and (max-width: 650px) {
