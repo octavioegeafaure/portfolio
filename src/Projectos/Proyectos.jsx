@@ -37,7 +37,7 @@ const Proyectos = () => {
     return (
 
         <div
-            className="proyecto-padding">
+            >
         <motion.div 
             // ref={ref}
             // variants={{
@@ -63,6 +63,9 @@ const Proyectos = () => {
             </div>
             <Modal modal={modal} misProyectos={misProyectos}/>
         </motion.div>
+        <div className="footer-home">
+          <Footer />  
+        </div>
         
         </div>
     )

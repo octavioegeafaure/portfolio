@@ -14,8 +14,7 @@ const Home = () => {
       <AboutEfecto />
       <Divisor numero="(002)"/>
       <Proyectos />
-      <Divisor numero="(003)"/>
-      <Footer />
+      
     </div>
   );
 }

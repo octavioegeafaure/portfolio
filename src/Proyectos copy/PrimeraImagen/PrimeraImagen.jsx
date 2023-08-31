@@ -19,6 +19,7 @@ export const PrimeraImagen = () => {
      window.scrollTo(0, 0);
     }, []);
   return (
+    
     <div
       className='primera-imagen'>
       <motion.div
@@ -97,10 +98,11 @@ export const PrimeraImagen = () => {
               <h5>easyrides</h5>
             </div>
           </Link>
-          <Footer />
+        <Footer />   
       </div>
-      
+     
     </div>
+    
   )
 }
 // BOTON 

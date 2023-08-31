@@ -4,6 +4,7 @@ import { useContext, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { ProyectoElegidoContext } from "../../Context/ProyectoElegidoContext";
 import Modal from "../Modal/Modal";
+import Footer from "../../Footer/Footer";
 
 const Proyecto = ({index, titulo, setModal}) => {
     const ref = useRef(null)
@@ -38,6 +39,7 @@ const Proyecto = ({index, titulo, setModal}) => {
             </div>
         </Link>
         {/* <Modal /> */}
+        
       </div>
 
   )

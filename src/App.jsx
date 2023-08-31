@@ -7,6 +7,7 @@ import Home from './Home'
 import Proyectos from './Proyectos/Proyectos';
 import { ProyectoElegidoProvider } from './Context/ProyectoElegidoContext';
 import ProyectoCrypto from './Proyectos copy/ProyectoCrypto';
+import Footer from './Footer/Footer';
 
 function App() {
   
@@ -15,12 +16,11 @@ function App() {
     <ProyectoElegidoProvider>
       <HashRouter>
         <Header />
-      <Routes>
-        <Route path="/portfolio/" element={<Home />} />
-        <Route path={`/portfolio/proyectos/EasyRides`} element={<Proyectos />} />
-        <Route path={`/portfolio/proyectos/GoCrypto`} element={<ProyectoCrypto />} />
-      </Routes>
-        
+        <Routes>
+          <Route path="/portfolio/" element={<Home />} />
+          <Route path={`/portfolio/proyectos/EasyRides`} element={<Proyectos />} />
+          <Route path={`/portfolio/proyectos/GoCrypto`} element={<ProyectoCrypto />} />
+        </Routes>
       </HashRouter>
     </ProyectoElegidoProvider>
 

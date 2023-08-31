@@ -30,9 +30,7 @@
 .concepto-flex > p {
     color: #F4C3B9;
 }
-.boton-proyecto {
-    border-bottom: 1px solid #F4C3B9;
-}
+
 .boton-proyecto > p{
     color: #F4C3B9;
     font-size: 1.4rem;
